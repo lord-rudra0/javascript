@@ -1,3 +1,12 @@
 h1 {
   color: red;
 }
+
+button {
+  background-color: blue;
+
+}
+
+button:active {
+  color: red;
+}
