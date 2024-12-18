@@ -68,3 +68,7 @@
 // document.querySelector("h1").classList.toggle("huge");
 
 
+//textContent
+
+document.querySelector("h2").textContent="BRO"
+document.querySelector("h2").innerHTML="innerHtml"
