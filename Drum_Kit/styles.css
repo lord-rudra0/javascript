@@ -18,36 +18,38 @@ footer {
 
 .w {
 
-  background-color: #DA0463;
+  background-image: url('images/crash.png');
 
 }
 
 .a {
-  background-color: #283149;
+  background-image: url('images/kick.png');
 
 }
 
 .s {
-  background-color: aqua;
+  background-image: url('images/snare.png');
 
 }
 
 .d {
 
-  background-color: bisque;
+  background-image: url('images/tom1.png');
 
 }
 
-.j {}
+.j {
+  background-image: url('images/tom2.png');
+}
 
 .k {
 
-  background-color: blanchedalmond;
+  background-image: url('images/tom3.png');
 
 }
 
 .l {
-  background-color: blue;
+  background-image: url('images/tom4.png');
 
 }
 
