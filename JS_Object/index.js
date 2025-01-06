@@ -22,3 +22,13 @@ this.languages=languages;
 }
 
 var BellBoy3=new BellBoy("ABC",22,["Hindi","English"]);
+
+function HouseKeeper(name,age,worked,exp)
+{
+    this.name=name;
+    this.age=age;
+    this.worked=worked;
+    this.exp=exp;
+}
+
+var housekeeper2=new HouseKeeper("abc",44,["A","B"],6)
