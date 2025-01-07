@@ -29,6 +29,10 @@ function HouseKeeper(name,age,worked,exp)
     this.age=age;
     this.worked=worked;
     this.exp=exp;
+    this.clean=function(){
+        console.log("cleaning in progress");
+    }
 }
 
 var housekeeper2=new HouseKeeper("abc",44,["A","B"],6)
+housekeeper2.clean();
