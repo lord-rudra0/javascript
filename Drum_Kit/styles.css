@@ -88,3 +88,9 @@ footer {
   margin: 10px;
   background-color: white;
 }
+
+.anim_button {
+  box-shadow: #DA0463;
+  opacity: 0.5;
+  filter: drop-shadow(10 10 10 red);
+}

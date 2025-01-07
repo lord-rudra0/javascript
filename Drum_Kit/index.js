@@ -14,6 +14,7 @@ for(var i=0;i<drum;i++)
 document.querySelectorAll(".drum")[i].addEventListener("click",function(){
 var inner=this.innerHTML;
 click_key(inner);
+ani_button(inner);
 
 });
 }
@@ -21,6 +22,7 @@ click_key(inner);
 document.addEventListener("keypress",function(e)
 {
     click_key(e.key);
+    ani_button(e.key);
 }
 );
 
@@ -64,6 +66,17 @@ function click_key(key)
         default:
             console.log("click a button")
         }
+}
+
+function ani_button(current_key)
+{
+var activeButton=document.querySelector("."+current_key)
+
+activeButton.classList.add("anim_button");
+
+window.setTimeout(function(){
+    activeButton.classList.remove("anim_button")
+},100)
 }
 
 // function click_music()
